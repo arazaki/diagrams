@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T12:18:16.148Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.2.9" etag="5xryqIbOZuPywvFISJ9L" type="github"><diagram id="pBGMsfv6I5kwhYXfUVsj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-22T13:24:30.762Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="OvrCUGHRodsJ4y0_-10O" version="15.2.9" type="github">
+  <diagram id="pBGMsfv6I5kwhYXfUVsj" name="Page-1">
+    <mxGraphModel dx="670" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-15" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="750" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-13" value="selectedOptions (State)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-15">
+          <mxGeometry x="40" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-16" value="" style="swimlane;startSize=0;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-15">
+          <mxGeometry x="40" y="250" width="310" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-22" value="ModalNPSScore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-16">
+          <mxGeometry x="104" y="10" width="96" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-45" value="handleSetNPSScore&lt;br&gt;setScore (setter)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-16">
+          <mxGeometry x="20" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-50" value="" style="swimlane;startSize=0;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-16">
+          <mxGeometry x="20" y="130" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-51" value="return" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-50">
+          <mxGeometry x="52" y="10" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-53" value="handleSetNPSScore&lt;br&gt;setScore (setter)&lt;br&gt;&lt;b&gt;onChange radioButton&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-50">
+          <mxGeometry x="30" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-17" value="handleSetSelectedOptions&lt;br&gt;setSelectedOptions (setter)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-15">
+          <mxGeometry x="40" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-18" value="score (State)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-15">
+          <mxGeometry x="260" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-19" value="handleSetNPSScore&lt;br&gt;setScore (setter)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-15">
+          <mxGeometry x="260" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-20" value="ModalNPS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-15">
+          <mxGeometry x="312" y="20" width="96" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-23" value="" style="swimlane;startSize=0;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-15">
+          <mxGeometry x="400" y="250" width="310" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-24" value="ModalNPSOptions" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-23">
+          <mxGeometry x="104" y="10" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-25" value="changedOptions (State)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-23">
+          <mxGeometry x="30" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-26" value="onCheckboxSelect&lt;br&gt;setChangedOptions (setter)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-23">
+          <mxGeometry x="30" y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-28" value="" style="swimlane;startSize=0;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-23">
+          <mxGeometry x="30" y="210" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-29" value="useEffect" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-28">
+          <mxGeometry x="52" y="10" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-27" value="handleSetSelectedOptions&lt;br&gt;setSelectedOptions (setter)&lt;br&gt;&lt;b&gt;changedOptions&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-28">
+          <mxGeometry x="30" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-46" value="" style="swimlane;startSize=0;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-23">
+          <mxGeometry x="30" y="390" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-47" value="return" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-46">
+          <mxGeometry x="52" y="10" width="156" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qE9Uxpt0wad_DDhX3MZw-49" value="onCheckboxSelect&lt;br&gt;setChangedOptions (setter)&lt;br&gt;&lt;b&gt;onChange checkbox&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qE9Uxpt0wad_DDhX3MZw-46">
+          <mxGeometry x="30" y="40" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
